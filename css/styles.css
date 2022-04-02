@@ -116,15 +116,18 @@ ul{
     color: var(--primary-white-color);
 }
 
-.hero-btn {
+.button{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
+    text-align: center;
+
+}
+
+.hero-btn {
+    font-weight: 700;   
     line-height: 1.88; 
     display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: center; 
     letter-spacing: 0.06em;
 
     color: var(--primary-white-color);
@@ -199,11 +202,8 @@ ul{
 /* portfolio.html */
 
 .filter-btn{
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--secondary-text-color);
